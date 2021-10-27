@@ -14,12 +14,14 @@ body{
     padding: 1.125rem 1rem;
 }
 
-.cover .title {
+.cover .ch-title,
+.cover .en-title {
     width: 100%;
     font-size: 1rem;
     font-weight: bold;
     color: #1A1A1A;
     text-align: center;
+    display: none;
 }
 
 .cover .content-lists-box {
