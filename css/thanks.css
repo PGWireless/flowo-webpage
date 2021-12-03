@@ -129,6 +129,7 @@ body {
 
 .cover .bottom-box {
     width: 100%;
+    position: relative;
 }
 
 .cover .bottom-box .sm-text {
@@ -155,4 +156,24 @@ body {
     font-family: PingFang SC;
     margin-top: 1rem;
     margin-top: .1875rem;
+}
+
+.cover .bottom-box .left-icon {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2.3125rem;
+    margin: auto;
+}
+
+.cover .bottom-box .right-icon {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1.3125rem;
+    margin: auto;
 }
