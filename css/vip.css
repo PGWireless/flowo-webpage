@@ -3,6 +3,16 @@ html{
     font-size: 16px;
 }
 
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -23,18 +33,15 @@ body{
     width: 100%;
 }
 
-.cover .content-lists-box .content-list-box {
-    width: 100%;
-}
-
 .cover .content-lists-box .content-list-box .sub-title{
     width: 100%;
     text-indent: 1.25rem;
     font-weight: 600;
-    font-size: .875rem;
-    line-height: 1.25rem;
+    font-size: .75rem;
+    line-height: .9375rem;
     text-align: justify;
     color: #1A1A1A;
+    font-family: Montserrat-SemiBold;
 }
 
 .cover .content-lists-box .content-list-box .content-text-box {
@@ -48,4 +55,5 @@ body{
     line-height: .9375rem;
     text-align: justify;
     color: #1A1A1A;
+    font-family: Montserrat-Regular;
 }
