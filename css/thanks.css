@@ -5,13 +5,15 @@ html {
     background: -moz-linear-gradient(#D0FE18, #ACD216);
     background: -o-linear-gradient(#D0FE18, #ACD216);
     background: linear-gradient(#D0FE18, #ACD216);
+    padding-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: constant(safe-area-inset-bottom);
 }
 
 body {
     width: 100%;
-    padding-bottom: 0;
-    padding-bottom: env(safe-area-inset-bottom);
-    padding-bottom: constant(safe-area-inset-bottom);
+    margin: 0;
+    padding: 0;
 }
 
 .cover {
