@@ -39,11 +39,11 @@ body {
 .cover .content-box {
     width: 95%;
     height: 25.75rem;
-    background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
-    background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
-    background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
-    background-color: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
-    box-shadow: 0 .25rem 1.5rem rgba(0, 0, 0, 0.05), inset 0 .25rem 1rem rgba(255, 255, 255, 0.1);
+    background-color: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    box-shadow: 0px .25rem 1.5rem rgba(0, 0, 0, 0.05), inset 0px 4px 16px rgba(255, 255, 255, 0.1);
     border-radius: 2.25rem;
     position: relative;
     box-sizing: border-box;
