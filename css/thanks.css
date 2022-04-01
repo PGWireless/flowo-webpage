@@ -80,18 +80,17 @@ body {
 .cover .content-box .href-box {
     width: 100%;
     height: 17.25rem;
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    overflow-y: scroll;
+    font-size: 0;
+    text-align: center;
 }
 
 .cover .content-box .href-box a {
-    display: block;
+    display: inline-block;
     width: 33%;
     height: 4.75rem;
     text-decoration: none;
+    margin-bottom: 1.5rem;
 }
 
 .cover .content-box .href-box  a .href-list {
