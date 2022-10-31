@@ -1,0 +1,49 @@
+.title {
+    font-size: .75rem;
+    color: #000;
+    margin-bottom: 1.25rem;
+}
+
+.content-cover {
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.content-cover-list {
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .625rem;
+    font-size: .75rem;
+    margin-bottom: .625rem;
+}
+
+.table{
+    width: 100%;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table table tr {
+    width: 100%;
+}
+
+.table table tr td {
+    text-align: center;
+    font-size: .75rem;
+    border: 1px solid #000;
+}
+
+.table table tr td div a {
+    color: #000;
+    font-size: .75rem;
+    text-decoration: none;
+}

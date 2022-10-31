@@ -1,0 +1,28 @@
+.title {
+    font-size: .75rem;
+    color: #000;
+    margin-bottom: 1.25rem;
+}
+
+.table{
+    width: 100%;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table {
+    width: 100%;
+}
+
+.table table tr {
+    width: 100%;
+}
+
+.table table tr td {
+    text-align: center;
+    font-size: .75rem;
+    border: 1px solid #000;
+}

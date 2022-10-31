@@ -1,0 +1,177 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(#D0FE18, #ACD216);
+    background: -moz-linear-gradient(#D0FE18, #ACD216);
+    background: -o-linear-gradient(#D0FE18, #ACD216);
+    background: linear-gradient(#D0FE18, #ACD216);
+    padding-bottom: 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-top: 0;
+    /* padding-top: env(safe-area-inset-top);
+    padding-top: constant(safe-area-inset-top); */
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    width: 100%;
+}
+
+.cover .img-box {
+    width: 100%;
+    height: 13.765625rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover .img-box img {
+    max-height: 100%;
+}
+
+.cover .content-box {
+    width: 95%;
+    height: 25.75rem;
+    background-color: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 7.52%, rgba(255, 255, 255, 0.2) 97.28%);;
+    box-shadow: 0px .25rem 1.5rem rgba(0, 0, 0, 0.05), inset 0px 4px 16px rgba(255, 255, 255, 0.1);
+    border-radius: 2.25rem;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.cover .content-box .icon-box {
+    width: 2.571875rem;
+    height: 2.026875rem;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cover .content-box .icon-box img {
+    max-height: 100%;
+}
+
+.cover .content-box .text-box {
+    width: 100%;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    font-style: italic;
+    font-family: Montserrat;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cover .content-box .href-box {
+    width: 100%;
+    height: 17.25rem;
+    overflow-y: scroll;
+    font-size: 0;
+    text-align: center;
+}
+
+.cover .content-box .href-box a {
+    display: inline-block;
+    width: 33%;
+    height: 4.75rem;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+
+.cover .content-box .href-box  a .href-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover .content-box .href-box .href-list .href-image {
+    width: 3.1875rem;
+    height: 3.1875rem;
+    margin-bottom: .5625rem;
+}
+
+.cover .content-box .href-box .href-list .href-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover .content-box .href-box .href-list .href-text {
+    width: 100%;
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 600;
+    color: #1A1A1A;
+    line-height: 1rem;
+    font-style: normal;
+    font-family: PingFang SC;
+}
+
+.cover .bottom-box {
+    width: 100%;
+    position: relative;
+}
+
+.cover .bottom-box .sm-text {
+    width: 100%;
+    line-height: .875rem;
+    font-size: .625rem;
+    color: #1A1A1A;
+    opacity: 0.4;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-family: PingFang SC;
+    margin-top: 1rem;
+}
+
+.cover .bottom-box .big-text {
+    width: 100%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: #1A1A1A;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-family: PingFang SC;
+    margin-top: 1rem;
+    margin-top: .1875rem;
+}
+
+.cover .bottom-box .left-icon {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2.3125rem;
+    margin: auto;
+}
+
+.cover .bottom-box .right-icon {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1.3125rem;
+    margin: auto;
+}
