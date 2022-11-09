@@ -139,11 +139,17 @@ switch (lang) {
         createTemeplate(vipDataCH)
         document.title = "会员使用协议"
     break;
+    case "zh-Hant":
+        createTemeplate(vipDataCH)
+        document.title = "会员使用协议"
+    break;
     case "en":
         createTemeplate(vipDataEN)
         document.title = "Details of Vip Rights"
     break;
     default:
+        createTemeplate(vipDataEN)
+        document.title = "Details of Vip Rights"
     break;
 }
 

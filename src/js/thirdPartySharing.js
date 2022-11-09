@@ -469,11 +469,17 @@ switch (lang) {
         createTemeplate(dataCH)
         document.title = "个人信息第三方共享清单 - Blurrr"
     break;
+    case "zh-Hant":
+        createTemeplate(dataCH)
+        document.title = "个人信息第三方共享清单 - Blurrr"
+    break;
     case "en":
         createTemeplate(dataEN)
         document.title = "Personal Information shared by third parties - Blurrr"
     break;
     default:
+        createTemeplate(dataEN)
+        document.title = "Personal Information shared by third parties - Blurrr"
     break;
 }
 

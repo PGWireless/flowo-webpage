@@ -147,11 +147,17 @@ switch (lang) {
         createTemeplate(thankDataCH)
         document.title = "特别鸣谢"
     break;
+    case "zh-Hant":
+        createTemeplate(thankDataCH)
+        document.title = "特别鸣谢"
+    break;
     case "en":
         createTemeplate(thankDataEN)
         document.title = "Special Thanks"
     break;
     default:
+        createTemeplate(thankDataEN)
+        document.title = "Special Thanks"
     break;
 }
 

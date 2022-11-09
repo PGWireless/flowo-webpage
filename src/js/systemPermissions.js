@@ -113,11 +113,17 @@ switch (lang) {
         createTemeplate(dataCH)
         document.title = "系统权限申请与使用清单 - Blurrr"
     break;
+    case "zh-Hant":
+        createTemeplate(dataCH)
+        document.title = "系统权限申请与使用清单 - Blurrr"
+    break;
     case "en":
         createTemeplate(dataEN)
         document.title = "System Permission Request and Usage List - Blurrr"
     break;
     default:
+        createTemeplate(dataEN)
+        document.title = "System Permission Request and Usage List - Blurrr"
     break;
 }
 

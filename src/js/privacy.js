@@ -1046,11 +1046,17 @@ switch (lang) {
         createTemeplate(privacyDataCH)
         document.title = "隐私政策"
     break;
+    case "zh-Hant":
+        createTemeplate(privacyDataCH)
+        document.title = "隐私政策"
+    break;
     case "en":
         createTemeplate(privacyDataEN)
         document.title = "Privacy policy"
     break;
     default:
+        createTemeplate(privacyDataEN)
+        document.title = "Privacy policy"
     break;
 }
 

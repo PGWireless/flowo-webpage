@@ -456,11 +456,17 @@ switch (lang) {
         createTemeplate(userDataCH)
         document.title = "用户协议"
     break;
+    case "zh-Hant":
+        createTemeplate(userDataCH)
+        document.title = "用户协议"
+    break;
     case "en":
         createTemeplate(userDataEN)
         document.title = "User Service Agreement"
     break;
     default:
+        createTemeplate(userDataEN)
+        document.title = "User Service Agreement"
     break;
 }
 

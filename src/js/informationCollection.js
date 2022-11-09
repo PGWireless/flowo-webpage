@@ -191,11 +191,17 @@ switch (lang) {
         createTemeplate(dataCH)
         document.title = "个人信息收集与使用清单 - Blurrr"
     break;
+    case "zh-Hant":
+        createTemeplate(dataCH)
+        document.title = "个人信息收集与使用清单 - Blurrr"
+    break;
     case "en":
         createTemeplate(dataEN)
         document.title = "Personal information collection and use list - Blurrr"
     break;
     default:
+        createTemeplate(dataEN)
+        document.title = "Personal information collection and use list - Blurrr"
     break;
 }
 
