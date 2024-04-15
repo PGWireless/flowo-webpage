@@ -55,4 +55,5 @@ body{
     text-align: justify;
     color: #1A1A1A;
     font-family: Montserrat-Regular;
+    word-break: break-all;
 }
